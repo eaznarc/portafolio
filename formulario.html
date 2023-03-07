@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Datos del usuario</legend>            
+            Nombre de usuario: 
+            <br><input type="text" placeholder="Usuario" maxlength="12" name="usuario" id="usuario" >
+
+            <br><label for="nombre">Nombre</label>
+            <br><input type="text" name="nombre" id="nombre" maxlength="25">
+
+            <br><label for="nombre">Apellido Paterno</label>
+            <br><input type="text" name="apellido" id="apellidop" maxlength="25">
+
+            <br><label for="nombre">Apellido Materno</label>
+            <br><input type="text" name="nombre" id="apellidom" maxlength="25">
+
+            <br><label for="pass">Contraseña:</label>
+            <br><input type="password" name="pass" id="pass" placeholder="" required>
+            <br><input type="submit">
+
+            <br><label for="bruh">comentarios</label>
+            <br><textarea name="bruh" rows="5" cols="5">bruh</textarea>
+
+            <br><label for="correo">correo</label>
+            <br><input type="email" name="correo" id="correo">
+            <br><input type="submit">
+
+            <br><label for="fechan" id="fechan">asdasdasdasd</label>
+            <br><input type="date" name="fechan" id="fechan">
+
+            <br><label for="mes">Mes</label>
+            <br><input type="month" name="mes" id="mes">
+
+            <br><label for="semana">Semana</label>
+            <br><input type="week" name="semana" id="semana">
+
+            <br><label for="fechad">Fecha2</label>
+            <br><input type="datetime" name="fechad" id="fechad">
+
+            <br><label for="file">Archivo</label>
+            <br><input type="file" name="file" id="file">
+
+            <br><label for="bruh1">Url</label>
+            <br><input type="url" name="bruh1" id="bruh1">
+            <br><input type="submit">
+
+            <br><label for="numero">Numero</label>
+            <br><input type="number" name="numero" id="numero">            
+
+            <br><label for="calif">Calificacion</label>
+            <br><input type="range" name="calif" id="calif" min="7" max="10">
+
+            <br><h3>Método de pago</h3>
+            <br><input type="checkbox" name="Tarjeta" id="Tarjeta" value="Tarjeta">
+            <label for="Tarjeta">Tarjeta de credito</label>
+            <br><input type="checkbox" name="Tarjetad" id="Tarjetad" value="Tarjetad">
+            <label for="Tarjetad">Tarjeta de débito</label>
+            <br><input type="checkbox" name="Efectivo" id="Efectivo" value="Efectivo" checked>
+            <label for="Efectivo">Efectivo</label>            
+            <br><input type="checkbox" name="Transfer" id="Transfer" value="Transfer">
+            <label for="Transfer">Transferencia</label><br>
+            
+            <br><h3>Genero del usuario</h3>
+            <br><input type="radio" name="generom" id="generom">
+            <label for="generom">Masculino</label>
+            <br><input type="radio" name="generof" id="generof">
+            <label for="generof">Femenino</label>
+            <br><input type="radio" name="generon" id="generon">
+            <label for="generon">Prefiero no decir</label>
+
+            <br><h3>Productos a comprar</h3>
+            <select name="productos" size="7" multiple>
+                <optgroup label="Alimentos">
+                    <option>Lacteos</option>
+                    <option>Refrigerados</option>
+                    <option>Carnes</option>
+                    <option>Comida preparada</option>
+                    <option>Confiteria</option>
+                    <option>Fruteria/Verduleria</option>
+                </optgroup>
+                <optgroup label="Productos del hogar">
+                    <option>Productos de limpieza</option>
+                    <option>Jardineria</option>
+                    <option>Herramientas</option>
+                    <option selected>HOMEMADE BOMBS</option>
+                    <option selected>UNREGISTERED FIREARMS</option>
+                    <option selected>ILLICIT DRUGS</option>
+                </optgroup>
+                <optgroup label="Cuidado personal">
+                    <option>Higiene</option>
+                    <option>Belleza</option>
+                </optgroup>
+            </select>
+
+        </fieldset>
+    </form>
+</body>
+</html>
