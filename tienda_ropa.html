@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa Online</title>
+</head>
+<body>
+    <style>
+        td{width: 180px;}
+    </style>
+    <h1 align="center">Tienda de Ropa Online</h1>
+    <form action="" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Información del cliente</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="name1">Nombre:</label>
+                            <br><input type="text" placeholder="Nombre" name="name1" id="name1" maxlength="25" required>
+                        </td>
+                        <td></td>
+                        <td>
+                            <label for="name2">Apellido paterno:</label>
+                            <br><input type="text" placeholder="Apellido paterno" name="name2" id="name2" maxlength="25" required>
+                        </td>
+                        <td></td>
+                        <td>
+                            <label for="name3">Apellido materno:</label>
+                            <br><input type="text" placeholder="Apellido materno" name="name3" id="name3" maxlength="25" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="nameus">Nombre de usuario:</label>
+                            <br><input type="text" placeholder="Usuario" name="nameus" id="nameus" maxlength="25">
+                        </td>
+                        <td></td>
+                        <td>
+                            <label for="pass">Contraseña:</label>
+                            <br><input type="text" name="pass" id="pass" maxlength="25">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de facturación</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="street">Calle:</label>
+                            <br><input type="text" placeholder="Calle" name="street" id="street">
+                        </td>
+                        <td></td>
+                        <td>
+                            <label for="num3">Numero exterior:</label>
+                            <br><input type="text" placeholder="Num. Ext." name="num3" id="num3">
+                        </td>
+                        <td></td>
+                        <td>
+                            <label for="colonia">Colonia:</label>
+                            <br><input type="text" placeholder="Colonia" name="colonia" id="colonia">
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="emailde">E-Mail:</label>
+                            <br><input type="text" name="emailde" id="emailde" placeholder="usuario@direccion.com" required>
+                        </td>
+                        <td></td>
+                        <td>
+                            <label for="cpde" >Codigo Postal:</label>
+                            <br><input type="text" name="cpde" id="cpde" placeholder="C.P.">
+                        </td>
+                        <td></td>
+                        <td>
+                            <label for="rfcd">RFC:</label>
+                            <br><input type="text" name="rfcd" id="rfcd" placeholder="RFC" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="date1">Fecha de entrega:</label>
+                            <input type="datetime-local" name="date1" id="date1" maxlength="25">
+                        </td>
+                    </tr>                    
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Datos del artículo adquirido</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="tipode">Tipo:</label>
+                            <br><select name="tipode" size="5">
+                                <option>Vestido</option>
+                                <option>Falda</option>
+                                <option>Pantalon</option>
+                                <option>Jeans</option>
+                                <option>Playera</option>
+                                <option>Camisa</option>
+                                <option>Camiseta</option>
+                                <option>Sudadera</option>
+                            </select>
+                        </td>   
+                        <td></td>                 
+                        <td>
+                            <label for="tallas">Talla:</label>
+                            <br><input type="checkbox"> Chica
+                            <br><input type="checkbox"> Mediana
+                            <br><input type="checkbox"> Grande
+                        </td>  
+                        <td></td>          
+                        <td>
+                            <label for="colorde">Selecciona el color:</label>
+                            <br><input type="color" name="colorde" id="colorde">
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <br><input type="submit" value="Enviar datos">
+                        </td>                        
+                        <td>
+                            <br><input type="reset" value="Borrar datos">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+    <h3 align="right"> &copy Distribuidora de ropa en línea 2023</h3>
+</body>
+</html>
