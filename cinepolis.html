@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEPOLIS</title>
+</head>
+<body background="imagenes/bg-cinepolis.jpg" style="background-size: cover; background-attachment: fixed;">
+    <style>
+        td{width: 350px;}
+    </style>
+    <h1 align="center" style="background-color: darkblue; font-size: xx-large; color: aliceblue;">Cinepolis</h1>
+    <table align="center" style="height: 500px; width: 500px;">
+        <tr>
+            <td>
+                <img src="imagenes/cartelera1.jpg" alt="cartelera1" height="300px" width="180px">
+            </td>
+            <td>
+                <img src="imagenes/cartelera2.jpg" alt="cartelera2" height="300px" width="180px">
+            </td>
+            <td>
+                <img src="imagenes/cartelera3.jpg" alt="cartelera3" height="300px" width="180px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="imagenes/cartelera4.jpg" alt="cartelera3" height="300px" width="180px">
+            </td>
+            <td>
+                <img src="imagenes/cartelera5.jpg" alt="cartelera3" height="300px" width="180px">
+            </td>
+            <td>
+                <img src="imagenes/cartelera6.jpg" alt="cartelera3" height="300px" width="180px">
+            </td>
+        </tr>
+    </table>
+    <form action="" method="post" enctype="text/plain">
+        <fieldset>
+            <legend align="center" style="font-size: x-large;">Compra de boletos</legend>
+            <table>
+                <tr>
+                    <td></td>
+                    <td>
+                        <label for="tickets" style="font-size: larger;">Cantidad de boletos</label>
+                        <br><input type="button">
+                    </td>
+                    <td>
+                        <label for="aorc" style="font-size: larger;">Edad de la persona</label>
+                        <br><input type="checkbox" name="child" id="child">
+                        <label for="child">Nino</label>
+                        <br><input type="checkbox" name="adult" id="adult">
+                        <label for="adult">Adulto</label>
+                        <br><input type="checkbox" name="growna" id="growna">
+                        <label for="growna">Adulto mayor</label>
+                    </td>
+                    <td>
+                        <label for="payment" style="font-size: larger;">Metodo de pago</label>                        
+                        <br><input type="radio" name="cash" id="cash">
+                        <label for="cash">Efectivo</label>
+                        <br><input type="radio" name="debitcard" id="debitcard">
+                        <label for="debitcard">Tarjeta de Debito</label>
+                        <br><input type="radio" name="creditcard" id="creditcard">
+                        <label for="creditcard">Tarjeta de Credito</label>
+                    </td>
+                    <td><p style="background-color: darkblue;color: aliceblue;"><a href="https://play.google.com/store/apps/details?id=air.Cinepolis&gl=US" style="color: aliceblue;font-size: larger;" target="_blank">Puede comprar comida por la App CINEPOLIS</a></p></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend align="center" style="font-size: x-large;">Facturacion</legend>
+            <table>
+                <tr>
+                    <td></td>
+                    <td>
+                        <label for="idk" style="font-size: larger;">Nombre(s)</label>
+                        <br><input type="text" name="idk" id="idk" placeholder="Eduardo">
+                    </td>                
+                    <td>
+                        <label for="idk2" style="font-size: larger;">Apellido(s)</label>
+                        <br><input type="text" name="idk2" id="idk2" placeholder="Aznar">
+                    </td>
+                    <td>
+                        <label for="bruh">Direccion</label>
+                        <br><input type="text" name="bruh" id="bruh" placeholder="Alburquerque, New Mexico, Negro Arrollo Lane">
+                    </td>                                        
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <label  for="idk3">Numero de la tarjeta</label>
+                        <br><input type="text" name="idk3" id="idk3" placeholder="1111-2222-3333-4444">
+                    </td>
+                    <td>
+                        <label for="idk4">PIN</label>
+                        <br><input type="text" maxlength="4" required placeholder="****">
+                    </td>
+                </tr>                
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="submit" value="Comprar" style="height: 50px; width: 100px;">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
