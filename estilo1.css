@@ -1,0 +1,29 @@
+div
+{
+    background-color: #ddfcea;
+}
+
+p,blockquote,ol
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;font-size:small; 
+}
+
+a
+{
+    font-size: larger; text-decoration: underline;color:blueviolet; font-style: italic; font-weight: bolder;
+}
+
+.AMADONERVO
+{
+    font-size: medium; text-decoration: underline;color:blueviolet; font-style: italic; font-weight: bolder;
+}
+
+.parrafo1
+{
+    font-size: larger;color: #53e7b6; font-family:Georgia, 'Times New Roman', Times, serif ; font-style: italic;
+}
+
+h2
+{
+    color: blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: italic;
+}
