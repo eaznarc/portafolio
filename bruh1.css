@@ -1,0 +1,47 @@
+h2,h3
+{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightgrey;
+}
+
+body
+{
+    background: #434343;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+legend
+{
+    font-weight: bolder;
+    font-size: larger;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label
+{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table
+{
+    width: 75%;
+    height: 75%;
+    
+}
+
+td
+{
+    width: 150px;
+    text-align: justify;
+}
