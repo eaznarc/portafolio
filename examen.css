@@ -1,0 +1,58 @@
+h1{
+    display: block;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    left: 75%;
+    top: 10px;
+}
+.menu{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(6, 157, 245);
+    margin: 0;
+    padding: 0;
+}
+.menu p{
+    padding: 20px;
+    display: inline-block;
+    color: white;
+}
+.menu:hover{
+    background-color: rgb(4, 69, 232);
+    cursor: crosshair;
+}
+.menu:hover .menu2{
+    display: block;
+}
+
+.menu2{
+    display: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    background-color: rgb(228, 132, 249);
+}
+.menu2 ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    text-align: center;
+    line-height: 50px;
+}
+.menu2 li{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size:larger;
+}
+.menu2 li:hover{
+    background-color: #fe59f3;
+    cursor: crosshair;
+}
