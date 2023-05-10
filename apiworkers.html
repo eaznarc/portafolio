@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <title>API WORKER</title>
+</head>
+<body>
+    <div>
+        <h2>Funcion de la API</h2>
+        <p>Esta API funciona al hacer que una funcion se ejecute en el fondo para que la pagina principal no corra todo el codigo al mismo tiempo</p>
+        <h2>Importancia</h2>
+        <p>Permite que las computadoras lentas o con poca capacidad puedan correr la pagina sin que se sature</p>
+        <p>Por ejemplo, si esta pagina tuviera multiples funciones, aun asi se podria cambiar el color de fondo sin problema ya que el worker se encarga de eso y no la pagina principal</p>
+    </div>
+    <div>
+        <h2>Implementacion del API</h2>
+        <button id="bgcolor">Cambiar Color de Fondo</button>
+        <button id="suma">Sumatoria</button>
+    </div>
+</body>
+</html>
