@@ -1,0 +1,27 @@
+h2{
+    font-family: 'Anton', sans-serif;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+}
+#boton{
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    width: 75%;
+    left: 100px;
+    background-color: #ff9dff;
+    color: #ffffff;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#nombre{
+    display: block;
+    background-color: #bbd8ff;
+    padding: 10px 10px;
+}
+p{
+    font-family: 'Roboto',sans-serif;
+}
+img{
+    left: 300px;
+}
